@@ -28,11 +28,13 @@ public class FinanceService {
     InvoiceRepository invoiceRepository;
 
     // cron a cada minuto:
-    // @Scheduled(cron = "0 * * * * *")
+//     @Scheduled(cron = "0 * * * * ?")
+    //cron a cada 10 segundos
+    @Scheduled(cron = "*/10 * * * * *")
     // cron de meia noite:
-    @Scheduled(cron = "0 0 0 * * ?")
+//    @Scheduled(cron = "0 0 0 * * ?")
     public void faturaGeneration() {
-        log.info("Iniciando a geração de faturas...");
+        log.info("Iniciando a geração de faturas... {}", LocalDateTime.now());
 
         LocalDateTime currentDate = LocalDateTime.now();
         LocalDateTime generationDeadline = currentDate.plusDays(QUANTITY_OF_DAYS_BEFORE_GENERATE);
