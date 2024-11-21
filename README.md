@@ -3,6 +3,7 @@
 #### Repositório de referência
 
 [tec-backend-uniesp-2024-1](https://github.com/kelsonvictr/tec-backend-uniesp-2024-1)
+[RepositorioBase](https://github.com/kelsonvictr/tec-backend-uniesp-2024-1/blob/main/src/main/java/br/com/alunoonline/api/model/Aluno.java)
 
 #### Refatoração
 
@@ -27,4 +28,8 @@ Financeiro
 - acrescentar o campo media na entidade student_enrollment
 - destrancar uma matricula
 - no historico do aluno deve fazer filtro pela identificação do student ou da matricula gerada no momento da criação do estudante
-- campo na tabela finance para dizer o mes referente ao pagamento da mensalidade 
+- campo na tabela finance para dizer o mes referente ao pagamento da mensalidade
+
+
+#### Estudos
+[Criando Migrations com Flyway no seu projeto Java Spring & PostgreSQL](https://www.youtube.com/watch?v=LX5jaieOIAk)

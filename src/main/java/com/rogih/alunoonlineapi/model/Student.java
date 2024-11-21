@@ -28,6 +28,3 @@ public class Student implements Serializable {
     private Course course;
 
 }
-
-
-//https://github.com/kelsonvictr/tec-backend-uniesp-2024-1/blob/main/src/main/java/br/com/alunoonline/api/model/Aluno.java
