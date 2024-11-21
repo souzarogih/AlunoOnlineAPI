@@ -33,3 +33,4 @@ Financeiro
 
 #### Estudos
 [Criando Migrations com Flyway no seu projeto Java Spring & PostgreSQL](https://www.youtube.com/watch?v=LX5jaieOIAk)
+[Aula 9 Springboot ( Migrations com Flyway )](https://www.youtube.com/watch?v=D8mWYIA_BBs)
